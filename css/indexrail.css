@@ -1,0 +1,72 @@
+body{
+    font-family: sans-serif;
+}
+ul a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    margin-top: -50px;
+  }
+li{
+    display: inline;
+    word-break: normal;
+}
+#Nav{
+    background-color: blue;
+    height: 40px;
+    padding: 10px;
+}
+#content{
+    border: 2px whitesmoke solid;
+    border-width: 20px;
+    position: relative;
+    float: center;
+    margin-left:400px;
+    
+}
+
+#indian-portal-gif{
+    position: relative;
+    left: 40%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.pre
+{
+    float:right;
+    padding:20px;
+    margin-right:30px;
+    margin-top:none;
+}
+
+.bb{
+    padding-top: 10px;
+    margin:none;
+}
+.Logo{
+position: relative;
+
+
+    
+}
+.ss{
+    float:center;
+    width:700px;
+    margin-left:400px;
+    position: absolute;
+}
+.btn
+{
+    width:150px;
+    padding:10px;
+    font-family: sans-serif;
+    font-size:20px;
+
+}
+#aside{
+    width:100px;
+    height:30px;
+}
