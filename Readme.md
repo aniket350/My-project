@@ -10,6 +10,7 @@ Functionalities website contains ---
 1. Organizastions Project Details.
 2. Organizastion Address Details.
 3. Forms so that any one can contact.
+4. Contacts
 
 Git hub pages link --
 https://aniket350.github.io/My-project/
