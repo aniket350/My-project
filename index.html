@@ -1,69 +1,360 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> Welcome to Indian Railway Passenger  Reservation Enquiry </title>
-    <link rel="stylesheet" href="css/indexrail.css">
-</head>
-<body>
-    
-        <!--header part containing navigation bar and logo-->
-        <header>
-           <nav>
-                <ul>
-                    <li><a href="#" style="font-size: 20px">Indian Railways Enquiry</a></li>      
-                    <li><a href="#">PNR Enquiry</a></li>
-                    <li><a href="#">Reserved Train Between Stations</a></li>
-                    <li><a href="#">Seat Availability</a></li>
-                    <li><a href="#">Fare Enquiry</a></li>
-                    <li><a href="#">Reserved Train Schedule</a></li>
-                </ul>
-            </nav>
-            <div class="Logo">
-                <h2 class="Main_Heading">Indian Railways Passenger Reservation Enquiry</h2>
-                <img  class="logo1" src="img/rail.gif" alt="Indian Rail">
-                
-            <div class="right_logo">
-                <img src="img/cris.gif" alt="cris app">
-                <img src="img/ind.gif" alt="india">
-            </div>
-            </div>
-        </header>
-        <marquee behavior="scroll" direction="left">
-                    Please help Indian  railways and government of India
-                    in moving towards a digitized and cashless Economy. 
-                    Eradicate Black Money.
-        </marquee>
-            
-        
-        <!--asside part-->
-        <aside>
-            <button class="btn">Services</button><br><br>
-            <button class="btn">Information</button>
-        </aside>
+    <head>
 
-        <!--Section part-->
-        <section>
-            <img src="img/slide.jpg" alt=""> <br>
-            <a href="#">Experience Our Services...</a> 
-            <img src="img/india_portal.gif" id="indian-portal-gif" alt="">
-        
-            <article>
-                <p> India has some of the most spectacular and unforgettable rail journeys in the world. 
-                    Here you experience a simple way to find out
-                    everything you need to know in one easy place. 
-                    There's no better way to enjoy India's outback, cities, coastal towns and regional 
-                    areas in comfort.
-                </p>
-            </article> 
-        </section>
-        <hr>
-        <!--Footer part-->
-        <footer>
-           <p style="text-align: center">  copyright &#9400;, Center for Railway Information Systems, Designed  and Hosted by CRIS </p>
-        </footer>
-    
-</body>
+        <!-- Website Title & Description for Search Engine purposes -->
+        <title>NGO Upkar Samiti, Pratapgarh</title>
+        <meta
+        content="" name="description">
+
+        <!-- Mobile viewport optimized -->
+
+        <meta
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+
+        <!-- Custom CSS -->
+
+        <link
+        href="css/styles.css" rel="stylesheet">
+
+        <!--Bootstrap-->
+
+        <link
+        crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+
+        <!--Font awesome-->
+        <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <!--Favicon-->
+
+        <link href="images/upkar.png" rel="icon" sizes="16x16" type="image/gif">
+
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+                <a class="navbar-brand" href="#"><img alt=" NGO logo" src="images/upkar.png" width="80"></a>
+                <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarSupportedContent" data-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdown" role="button">
+                                Programmes
+                            </a>
+                            <div aria-labelledby="navbarDropdown" class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Handicraft Exhibition</a>
+                                <a class="dropdown-item" href="#">Tobacoo Programme</a>
+                                <a class="dropdown-item" href="#">Technical Traning</a>
+                                <a class="dropdown-item" href="#"></a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Branches</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-us">Contact us</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input aria-label="Search" class="form-control mr-sm-2" placeholder="Search" type="search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+            <!--navigation end-->
+        </header>
+        <!--header end-->
+
+        <!--Carousel-->
+
+            <div class="carousel slide" data-ride="carousel" id="carouselExampleCaptions">
+                <ol class="carousel-indicators">
+                    <li class="active" data-slide-to="0" data-target="#carouselExampleCaptions"></li>
+                    <li data-slide-to="1" data-target="#carouselExampleCaptions"></li>
+                    <li data-slide-to="2" data-target="#carouselExampleCaptions"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img alt="..." class="d-block w-100" height="550px" src="images/lecture.jpg" width="600px">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>National Tobacoo Programme, Amethi</h5>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img alt="..." class="d-block w-100" height="550px" src="images/bareliy.jpg" width="600px">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Handicraft Mela, Kausambi
+                            </h5>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img alt="..." class="d-block w-100" height="550px" src="images/tobacoamethi.jpg" width="600px">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 style="color: blue">Nai Roshini Programme, Kausambi</h5>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" data-slide="prev" href="#carouselExampleCaptions" role="button">
+                    <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" data-slide="next" href="#carouselExampleCaptions" role="button">
+                    <span aria-hidden="true" class="carousel-control-next-icon"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <!--Carousel end-->
+
+            <!--Jumbotron-->
+
+            <div class="jumbotron">
+                <h1 class="text-center welcomeheading">Welcome to UPKAR SAMITI</h1>
+            </div>
+            <!--jumbotron end-->
+
+			<!--Grid-->
+			<section class="container-fluid">
+            <article class="row no-gutters">
+                <div class="col-sm-6">
+                    <p class="para">Upkar samiti is a Non government organizastion working for the welfare of Minority womens, Unemployed youth,
+											Traning to Handicraft Artisans and Empowering house hold womens.
+											organizastion is registered in year of 1996 under Registrar of socities act 1860 from Minsitry of Human resource devleopment.<br><br>
+											
+											Organizastion Mainly works from Handicraft department, Minsitry of Textiles, Govt of India and takes Projects like Ambedkar protsahan Yojana, Technical trainig for 
+											Youths, Gandhi shilp Bazar, Exhibitions and many more. Organizastion also works with Minority department and works on projects like Uataad, Nai Roshinin, Minority scholarship.
+											We are looking for above kind of projects from MNCs, Government and International Fundings.
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="paragraph">
+                        <article class="py-5">
+                            <div class="text-center text-black">
+                                <h3 class="display-4">Work with us</h3>
+                                <p>If you want to join our team, register now!</p>
+                                <button class="btn btn-warning" data-target="#myModal" data-toggle="modal">Register now</button>
+                            </div>
+                        </p>
+                    </p>
+                </div>
+            </article>
+		</section>
+            <!-- The Modal -->
+
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div
+                        class="modal-content">
+
+                        <!-- Modal Header -->
+
+                        <div class="modal-header">
+                            <h4 class="modal-title">Register</h4>
+                            <button class="close" data-dismiss="modal" type="button">&times;</button>
+
+                        </div>
+                        <!--Modal Header ends-->
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+
+                            <form action="/action_page.php">
+                                <div class="form-group">
+                                    <label for="name">Name:</label>
+                                    <input class="form-control" id="name" placeholder="Enter your name" type="name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email address:</label>
+                                    <input class="form-control" id="email" placeholder="Enter your email" type="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="pwd">Create password:</label>
+                                    <input class="form-control" id="pwd" placeholder="Enter password" type="password">
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact">Contact number:</label>
+                                    <input class="form-control" id="contact" placeholder="Enter your contact number" type="contact">
+                                </div>
+                                <button class="btn btn-primary" type="submit">Submit</button>
+                            </form>
+
+                        </div>
+                        <!--Modal body ends-->
+
+                        <!-- Modal footer -->
+
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <footer
+                class="page-footer font-small pt-4" style="height: 500px">
+
+                <!-- Footer Links -->
+                <div
+                    class="container text-center">
+
+                    <!-- Grid row -->
+                    <div
+                        class="row">
+
+                        <!-- Grid column -->
+                        <div class="col-md-6 col-lg-2 mr-auto my-md-4 my-0 mt-4 mb-1">
+                            <h5><b>REACH TO US</b></h5>
+                            <!-- Content -->
+                            <h5 class="font-weight-bold text-uppercase ">
+                                <iframe allowfullscreen frameborder="0" height="260" src="https://www.google.com/maps/embed?pb=" style="border:0" width="250"></iframe>
+                            </div>
+                            <!-- Grid column -->
+
+                            <hr
+                            class="clearfix w-100 d-md-none">
+
+                            <!-- Grid column -->
+                            <div
+                                class="col-md-6 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                                <!-- Links -->
+                                <h5 class="font-weight-bold text-uppercase mb-4">Quick Links</h5>
+
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <p>
+                                            <a href="#!">PROGRAMMES</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a href="#!">ABOUT US</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a href="#!">BLOG</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <a href="#!">CERTIFICATIONS</a>
+                                        </p>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <!-- Grid column -->
+
+                            <hr
+                            class="clearfix w-100 d-md-none">
+
+                            <!-- Grid column -->
+                            <div
+                                class="col-md-6 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                                <!-- Contact details -->
+                                <h5 class="font-weight-bold text-uppercase mb-4" id="contact-us">Contact us</h5>
+
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <p>
+                                            <i class="fa fa-home mr-3"></i>
+                                            18B, Krishna ji puram, Rupapur, Afeem kothi, Pratapgarh (U.P.) 230001
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <i class="fa fa-envelope mr-3"></i>
+                                            upkarsamiti@gmail.com</p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <i class="fa fa-phone mr-3"></i>
+                                            +91 8707821384
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <i class="fa fa-phone mr-3"></i>
+                                            +91 9451036622</p>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <!-- Grid column -->
+
+                            <hr
+                            class="clearfix w-100 d-md-none	">
+
+                            <!-- Grid column -->
+                            <div
+                                class="col-md-6 col-lg-2 text-center mx-auto my-2">
+
+                                <!-- Social buttons -->
+
+                                <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+
+                                <!-- Facebook -->
+
+                                <ul class="social"></li>
+
+                                <li>
+                                    <a class="fa fa-facebook" href="#"></a>
+                                </li>
+
+                                <!-- Twitter -->
+                                <li>
+                                    <a class="fa fa-twitter" href="#"></a>
+                                </li>
+
+                                <!-- Google +-->
+                                <li>
+                                    <a class="fa fa-google" href="#"></a>
+                                </li>
+
+                                <!-- Dribbble -->
+                                <li>
+                                    <a class="fa fa-instagram" href="#"></a>
+                                </li>
+
+                                <ul></div>
+                                <!-- Grid column ends -->
+
+                            </div>
+                            <!-- Grid row ends -->
+
+                        </div>
+                        <!-- Footer Links ends -->
+
+                        <!-- Copyright -->
+                        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+                            <a href="https://mdbootstrap.com/education/bootstrap/">
+                                upkarsamiti.org</a>
+                        </div>
+                        <!-- Copyright -->
+
+                    </footer>
+                    <!-- Footer ends -->
+
+                <script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+                <script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+                <script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+            </body>
+        </html>
+    </body>
 </html>

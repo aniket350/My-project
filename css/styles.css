@@ -1,0 +1,122 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+body{
+    height: 100%;
+}
+
+.logo{
+    float:left;
+    width:300px;
+    height:100px;
+
+}
+.jumbotron{
+    height:150px;
+    padding-top:10px;
+    
+}
+/* 
+.bd-example{
+    height: 100%;
+    margin-bottom: 300px;
+} */
+
+.paragraph
+{
+    margin:none;
+    padding:10px;
+}
+h1.display{
+    text-align: center;
+    color:red;
+
+}
+.lead
+{
+    text-align: center;
+}
+#containerclass{
+    margin: 0px;
+    
+    padding-right: 0px;
+    padding-left: 0px;
+
+}
+/* .welcomeheading{
+    size: 1rem;
+} */
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+ul li{
+    text-decoration: none;
+    list-style: none;
+    
+}
+.social
+{
+    font-size:30px;
+   
+}
+
+html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: ;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
